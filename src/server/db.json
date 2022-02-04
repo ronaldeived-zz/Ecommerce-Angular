@@ -1,0 +1,44 @@
+{
+    "produtos": [
+        { 
+            "id": 1, 
+            "nome": "mouse Microsoft", 
+            "valor": 15.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "mouse.jpg" 
+        },
+        { 
+            "id": 2, 
+            "nome": "Teclado Microsoft", 
+            "valor": 29.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "teclado.jpg" 
+        },
+        { 
+            "id": 3, 
+            "nome": "Monitor Samsung", 
+            "valor": 249.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "monitor.jpg" 
+        },
+        { 
+            "id": 4, 
+            "nome": "Macbook Air M4", 
+            "valor": 1990.90,
+            "promocao": true,
+            "valorPromo": 1590.90,
+            "imagem": "mac.jpg" 
+        },
+        { 
+            "id": 5, 
+            "nome": "Laptop Asus", 
+            "valor": 999.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "asus.jpg" 
+        }
+    ]
+  }
