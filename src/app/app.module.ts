@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.modules';
 
@@ -9,6 +10,7 @@ import { HomeComponent } from './navegacao/home/home.component';
 import { FooterComponent } from './navegacao/footer/footer.component';
 import { SobreComponent } from './instituicao/sobre/sobre.component';
 import { ContatoComponent } from './instituicao/contato/contato.component';
+import { NovasFeaturesComponent } from './novas-features/novas-features.component';
 
 @NgModule({
   declarations: [
@@ -17,11 +19,13 @@ import { ContatoComponent } from './instituicao/contato/contato.component';
     HomeComponent,
     FooterComponent,
     SobreComponent,
-    ContatoComponent
+    ContatoComponent,
+    NovasFeaturesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
